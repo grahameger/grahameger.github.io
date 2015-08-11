@@ -1,0 +1,796 @@
+.sr-only,
+img {
+    border: 0
+}
+
+.list-inline,
+.list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+.btn,
+img {
+    vertical-align: middle
+}
+
+.fa,
+body {
+    -moz-osx-font-smoothing: grayscale
+}
+
+.btn,
+a,
+a.btn {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0;
+    line-height: 1.42857143;
+    background-color: #fff
+}
+
+aside,
+header,
+section {
+    display: block
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+b {
+    font-weight: 700
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 36px
+}
+
+@media print {
+    *,
+    :after,
+    :before {
+        background: 0 0!important;
+        color: #000!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important;
+        text-shadow: none!important
+    }
+    a,
+    a:visited {
+        text-decoration: underline
+    }
+    a[href]:after {
+        content: " (" attr(href)")"
+    }
+    a[href^="#"]:after {
+        content: ""
+    }
+    img {
+        page-break-inside: avoid;
+        max-width: 100%!important
+    }
+    h2,
+    h3,
+    p {
+        orphans: 3;
+        widows: 3
+    }
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+}
+
+.btn,
+.btn:active {
+    background-image: none
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.eot);
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont-iefix.eot) format('embedded-opentype'), url(https://grahameger.github.io/assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(https://grahameger.github.io/assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(https://grahameger.github.io/assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.2/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+a:focus,
+a:hover {
+    color: #157ab5;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.btn,
+.list-inline>li {
+    display: inline-block
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0)
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+    margin-bottom: 10px
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.1
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 20px
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 18px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+p {
+    margin: 0 0 10px
+}
+
+.text-left {
+    text-align: left
+}
+
+.btn,
+.text-center {
+    text-align: center
+}
+
+ul {
+    margin-top: 0
+}
+
+.list-inline {
+    margin-left: -5px
+}
+
+.list-inline>li {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.col-md-4,
+.col-md-8,
+.col-sm-12,
+.col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.col-xs-12 {
+    float: left;
+    width: 100%
+}
+
+@media (min-width:768px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%
+    }
+}
+
+@media (min-width:992px) {
+    .col-md-4,
+    .col-md-8 {
+        float: left
+    }
+    .col-md-8 {
+        width: 66.66666667%
+    }
+    .col-md-4 {
+        width: 33.33333333%
+    }
+}
+
+.btn {
+    margin-bottom: 0;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1)
+}
+
+.btn:active:focus,
+.btn:focus {
+    outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px
+}
+
+.btn:focus,
+.btn:hover {
+    color: #555;
+    text-decoration: none
+}
+
+.btn:active {
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+}
+
+@-webkit-keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+@-o-keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+    to {
+        background-position: 0 0
+    }
+}
+
+.container:after,
+.container:before,
+.row:after,
+.row:before {
+    content: " ";
+    display: table
+}
+
+.container:after,
+.row:after {
+    clear: both
+}
+
+.pull-right {
+    float: right!important
+}
+
+.pull-left {
+    float: left!important
+}
+
+@-ms-viewport {
+    width: device-width
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.eot);
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont-iefix.eot) format('embedded-opentype'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.woff2) format('woff2'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.woff) format('woff'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.ttf) format('truetype'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.svg) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0, 0)
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-rotate-90 {
+    filter: none
+}
+
+.fa-envelope-o:before {
+    content: "\f003"
+}
+
+.fa-map-marker:before {
+    content: "\f041"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+.fa-link:before {
+    content: "\f0c1"
+}
+
+.fa-linkedin:before {
+    content: "\f0e1"
+}
+
+.fa-github-alt:before {
+    content: "\f113"
+}
+
+.fa-youtube:before {
+    content: "\f167"
+}
+
+.fa-graduation-cap:before {
+    content: "\f19d"
+}
+
+.fa-paper-plane:before {
+    content: "\f1d8"
+}
+
+body {
+    font-family: Lato, arial, sans-serif;
+    color: #434343;
+    background: #dae3e7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    color: #778492
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #3aaa64
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2d844e
+}
+
+.btn,
+a.btn {
+    font-family: Montserrat, arial, sans-serif;
+    padding: 8px 16px;
+    font-weight: 700
+}
+
+.btn .fa,
+a.btn .fa {
+    margin-right: 5px
+}
+
+.btn:focus,
+a.btn:focus {
+    color: #fff
+}
+
+.btn-cta-primary,
+a.btn-cta-primary {
+    background: #54ba4e;
+    border: 1px solid #54ba4e;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.btn-cta-primary:hover,
+a.btn-cta-primary:hover {
+    background: #49ac43;
+    border: 1px solid #49ac43;
+    color: #fff
+}
+
+.header {
+    padding: 30px 0;
+    background: #f5f5f5;
+    border-top: 10px solid #778492
+}
+
+.header .btn {
+    margin-top: 60px;
+    font-weight: 700
+}
+
+.header .profile-image {
+    margin-right: 30px
+}
+
+.header .profile-content .name {
+    color: #49515a;
+    font-size: 38px;
+    margin-bottom: 5px;
+    margin-top: 30px
+}
+
+.header .profile-content .desc {
+    color: #778492;
+    font-family: Lato, arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+.latest .item,
+.section,
+.section .heading {
+    margin-bottom: 30px
+}
+
+.header .profile-content .social a {
+    background: #b0b7bf;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center
+}
+
+.header .profile-content .social a:hover {
+    background: #778492
+}
+
+.header .profile-content .social a .fa {
+    font-size: 20px;
+    padding-top: 8px
+}
+
+.sections-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+.section .section-inner {
+    background: #fff;
+    padding: 30px
+}
+
+.section .heading {
+    margin-top: 0;
+    color: #545e69;
+    font-size: 24px
+}
+
+.latest .item .title {
+    font-size: 18px;
+    margin-top: 0
+}
+
+.latest .item .title a {
+    color: #778492
+}
+
+.latest .item .title a:hover {
+    color: #5f6b77
+}
+
+.latest .item .project-image:hover {
+    -webkit-opacity: .8;
+    -moz-opacity: .8;
+    opacity: .8
+}
+
+.latest .featured {
+    margin-bottom: 60px
+}
+
+.latest .featured .title {
+    margin-bottom: 5px;
+    font-size: 20px
+}
+
+.experience .item,
+.latest .featured .desc,
+.latest .featured img {
+    margin-bottom: 30px
+}
+
+.latest .featured .summary {
+    margin-bottom: 30px;
+    color: #778492
+}
+
+.latest .featured-image {
+    position: relative
+}
+
+.latest .featured-image .text {
+    background: #3aaa64;
+    color: #fff
+}
+
+.latest .featured-image .ribbon {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 110px;
+    height: 110px;
+    overflow: hidden
+}
+
+.experience .item .title {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.5
+}
+
+.experience .item .title .place {
+    color: #999;
+    font-weight: 400
+}
+
+.experience .item .title .place a {
+    color: #999
+}
+
+.experience .item .title .place a:hover {
+    color: #666
+}
+
+.experience .item .title .year {
+    color: #999;
+    font-weight: 400
+}
+
+.info .fa {
+    margin-right: 15px;
+    color: #ccd1d6
+}
+
+.info .fa.fa-envelope-o {
+    font-size: 14px
+}
+
+.info ul {
+    margin-bottom: 0
+}
+
+.info li {
+    margin-bottom: 15px
+}
+
+.info li:last-child {
+    margin-bottom: 0
+}
+
+.education .item,
+.skills .intro {
+    margin-bottom: 30px
+}
+
+.education .item:last-child {
+    margin-bottom: 0
+}
+
+.education .item .title {
+    font-size: 16px;
+    margin-top: 0
+}
+
+.education .item .university {
+    font-family: Lato, arial, sans-serif;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px
+}
+
+.education .item .university .year {
+    color: #b0b7bf;
+    font-weight: 500
+}
+
+@media (max-width:767px) {
+    .header {
+        text-align: center
+    }
+    .header .profile-image {
+        float: none!important;
+        margin: 0 auto
+    }
+    .header .profile-content {
+        float: none!important;
+        text-align: center
+    }
+    .header .btn {
+        margin-top: 30px;
+        float: none!important
+    }
+    .project-image {
+        margin-bottom: 15px
+    }
+}
+
+@media (min-width:1400px) {
+    .container {
+        width: 1360px
+    }
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://grahameger.github.io/assets/fonts/IY9HZVvI1cMoAHxvl0w9LVKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    unicode-range: U+0100024F, U+1E0-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://grahameger.github.io/assets/fonts/22JRxvfANxSmnAhzbFH8PlKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    unicode-range: U+00FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F0
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://grahameger.github.io/assets/fonts/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    unicode-range: U+0100024F, U+1E0-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://grahameger.github.io/assets/fonts/MDadn8DQ_3oT6kvnUq_2rxTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    unicode-range: U+00FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F0
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://grahameger.github.io/assets/fonts/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    unicode-range: U+0100024F, U+1E0-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://grahameger.github.io/assets/fonts/MgNNr5y1C_tIEuLEmicLm1KPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    unicode-range: U+00FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F0
+}
