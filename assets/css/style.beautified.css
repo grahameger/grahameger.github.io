@@ -105,8 +105,8 @@ h1 {
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(https://grahameger.com/assets/fonts/fontawesome-webfont.eot);
-    src: url(https://grahameger.com/assets/fonts/fontawesome-webfont-iefix.eot) format('embedded-opentype'), url(https://grahameger.com/assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(https://grahameger.com/assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(https://grahameger.com/assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.2/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.eot);
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont-iefix.eot) format('embedded-opentype'), url(https://grahameger.github.io/assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(https://grahameger.github.io/assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(https://grahameger.github.io/assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.2/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 *,
@@ -365,8 +365,8 @@ ul {
 
 @font-face {
     font-family: FontAwesome;
-    src: url(https://grahameger.com/assets/fonts/fontawesome-webfont.eot);
-    src: url(https://grahameger.com/assets/fonts/fontawesome-webfont-iefix.eot) format('embedded-opentype'), url(https://grahameger.com/assets/fonts/fontawesome-webfont.woff2) format('woff2'), url(https://grahameger.com/assets/fonts/fontawesome-webfont.woff) format('woff'), url(https://grahameger.com/assets/fonts/fontawesome-webfont.ttf) format('truetype'), url(https://grahameger.com/assets/fonts/fontawesome-webfont.svg) format('svg');
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.eot);
+    src: url(https://grahameger.github.io/assets/fonts/fontawesome-webfont-iefix.eot) format('embedded-opentype'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.woff2) format('woff2'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.woff) format('woff'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.ttf) format('truetype'), url(https://grahameger.github.io/assets/fonts/fontawesome-webfont.svg) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -751,7 +751,7 @@ a.btn-cta-primary:hover {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
-    src: local('Lato Light'), local('Lato-Light'), url(https://grahameger.com/assets/fonts/IY9HZVvI1cMoAHxvl0w9LVKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    src: local('Lato Light'), local('Lato-Light'), url(https://grahameger.github.io/assets/fonts/IY9HZVvI1cMoAHxvl0w9LVKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
     unicode-range: U+0100024F, U+1E0-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
 }
 
@@ -759,7 +759,7 @@ a.btn-cta-primary:hover {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
-    src: local('Lato Light'), local('Lato-Light'), url(https://grahameger.com/assets/fonts/22JRxvfANxSmnAhzbFH8PlKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    src: local('Lato Light'), local('Lato-Light'), url(https://grahameger.github.io/assets/fonts/22JRxvfANxSmnAhzbFH8PlKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
     unicode-range: U+00FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F0
 }
 
@@ -767,7 +767,7 @@ a.btn-cta-primary:hover {
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url(https://grahameger.com/assets/fonts/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://grahameger.github.io/assets/fonts/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
     unicode-range: U+0100024F, U+1E0-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
 }
 
@@ -775,7 +775,7 @@ a.btn-cta-primary:hover {
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url(https://grahameger.com/assets/fonts/MDadn8DQ_3oT6kvnUq_2rxTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://grahameger.github.io/assets/fonts/MDadn8DQ_3oT6kvnUq_2rxTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
     unicode-range: U+00FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F0
 }
 
@@ -783,7 +783,7 @@ a.btn-cta-primary:hover {
     font-family: Lato;
     font-style: normal;
     font-weight: 700;
-    src: local('Lato Bold'), local('Lato-Bold'), url(https://grahameger.com/assets/fonts/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://grahameger.github.io/assets/fonts/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
     unicode-range: U+0100024F, U+1E0-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
 }
 
@@ -791,6 +791,6 @@ a.btn-cta-primary:hover {
     font-family: Lato;
     font-style: normal;
     font-weight: 700;
-    src: local('Lato Bold'), local('Lato-Bold'), url(https://grahameger.com/assets/fonts/MgNNr5y1C_tIEuLEmicLm1KPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://grahameger.github.io/assets/fonts/MgNNr5y1C_tIEuLEmicLm1KPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
     unicode-range: U+00FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F0
 }
