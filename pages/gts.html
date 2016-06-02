@@ -38,10 +38,10 @@
                 h = h - 12;
                 ampm = ' PM'
             }
-            if (h = 12) {
+            else if (h == 12) {
                 ampm = ' PM'
             }
-            if (h < 12) {
+            else if (h < 12) {
                 ampm = ' AM'
             }
             document.getElementById('txt').innerHTML = h + ":" + m + ":" + s + ampm;
