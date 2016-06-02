@@ -10,19 +10,19 @@
             text-align: center;
         }
         h1 {
-            font-size: 200px;
-            color: #fdfdfd;
+            font-size: 180px;
+            color: #1a1a1a;
         }
         h2 {
-            font-size: 150px;
-            color: #fdfdfd;
+            font-size: 99px;
+            color: #1a1a1a;
         }
         h3 {
-        	font-size: 110px;
-        	color: #fdfdfd;
+        	font-size: 99px;
+        	color: #1a1a1a;
         }
         body {
-        	background-color: #1a1a1a;
+        	background-color: #fdfdfd;
         }
     </style>
     <script>
@@ -57,23 +57,20 @@
     </script>
 </head>
 
-<body onload="startTime()" bgcolor="#1a1a1a">
+<body onload="startTime()" style="color: #1a1a1a;">
 	<div>
-	<br><br><br><br><br><br><br><br>
+	<br><br><br>
     <div class="center">
         <h1>Welcome to GTS!</h1>
     </div>
-    <div class='center'>
-        <h2 id="txt"></h2>
-    </div>
-    <div class="center">
+        <div class="center">
         <h3>
         	<script type="text/javascript">
-				var mydate=new Date();
-				var year=mydate.getFullYear();
-				var day=mydate.getDay();
-				var month=mydate.getMonth();
-				var daym=mydate.getDate();
+				var mydate = new Date();
+				var year = mydate.getFullYear();
+				var day = mydate.getDay();
+				var month = mydate.getMonth();
+				var daym = mydate.getDate();
 				if (daym < 10) {
 					daym = "0" + daym;
 				}
@@ -83,6 +80,10 @@
 			</script>
 		</h3>
     </div>
+    <div class='center'>
+        <h2 id="txt"></h2>
+    </div>
+    <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=42.483902&color=#1a1a1a&lon=-83.243038&name=Downtown Southfield"> </iframe> 
     </div>
 </body>
 
