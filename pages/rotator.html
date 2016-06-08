@@ -1,18 +1,8 @@
- <html>
-     <head>
-        <title></title>
-        <style type="text/css">
-            #f
-            {
-                height:   100%;
-                left:     0px;
-                position: absolute;
-                top:      0px;
-                width:    100%;
-            }
-        </style>
-        <script type="text/javascript">
-           var urls = [
+<html>
+<head>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    var sites = [
               "http://grahameger.github.io/pages/newsticker.html"
               ,"https://sevone.comcastbusiness.com/viewLink.php?l=40302"
               ,"https://sevone.comcastbusiness.com/viewLink.php?l=40305"
@@ -61,23 +51,25 @@
               ,"http://ukocnetmon.msxi-euro.com/cacti/graph_view.php?action=tree&tree_id=32&leaf_id=2829"
               ,"http://ukocnetmon.msxi-euro.com/cacti/graph_view.php?action=tree&tree_id=32&leaf_id=2915"
            ];
-           function showUrl(idx) {
-              var f = document.getElementById("f");
+    var currentSite = sites.length;
 
-              // call the next load  after 5 seconds only after 
-              // this iframe loads
-              f.onload = function()   {
-                 var next = ++idx % urls.length;
-                 setTimeout(function(){
-                    showUrl(next);
-                 }, 17000);  
-              }
-              // set the src
-              f.src = urls[idx];
-           }
-        </script>
-     </head>
-     <body onload="showUrl(0)" class="app-chrome">
-        <iframe id="f" src="about:blank"></iframe>
-     </body>
-  </html>
+    $(document).ready(function () {
+      var $iframe = $("iframe").attr("src","https://www.google.com");
+      setInterval(function() {
+        (currentSite == 0) ? currentSite = sites.length - 1 : currentSite = currentSite -1;
+        $iframe.attr("src",sites[currentSite]);
+      }, 7000);
+    });
+  </script>  
+  <style type="text/css" media="screen">
+    iframe {
+      height: 100%;
+      width: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe></iframe>
+</body>
+</html>
